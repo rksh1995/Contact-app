@@ -31,6 +31,7 @@ const ContactList = ({ userContactForm }) => {
           </li>
         ))}
       </ul>
+      <p>Total contact {filteredData.length}</p>
     </div>
   );
 };
